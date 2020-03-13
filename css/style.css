@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* set max container width */
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.navbar {
+    color: white;
+    margin: 5px 0 5px 0;
+    width: 600px;
+}
+
+.navbar > ul {
+    margin: 1em auto;
+}
+
+.navbar > ul > li {
+    display: inline-block;
+    padding-right: 35px;
+}
+
+article {
+    display: block;
+    margin-bottom: 25px;
+}
+
+img {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+/* Properties for all on-image text */
+.meme_text {
+    background: transparent;
+    font-size: 40px;
+    font-family: "Impact";
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    width: 600px;
+    position: absolute;
+    text-align: center;
+}
+
+#meme_text_top {
+    top: 350px;
+}
+
+#meme_text_bottom {
+    top: 715px;
+}
